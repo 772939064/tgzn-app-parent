@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+dubbo:
+  application:
+    name: app-consumer-test
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20880
+  #scan:
+    #base-packages: com.tgzn.app.appconsumertest.service
+
+
+
+
+
